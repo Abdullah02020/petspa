@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/Logo.svg";
+import Logo from "../assets/navlogo.svg";
 import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import { navLinks } from "../constants";
@@ -8,14 +8,16 @@ const NavBar = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <nav className="flex m-2 justify-between navcon">
+    <nav className="flex justify-between py-2 px-5 border-2 border-bordercolor border-t-0 rounded-bl-[25px] rounded-br-[25px]">
       <div className="logo flex gap-x-3">
         <img src={Logo} alt="" />
-        <h1 className="text-white font-semibold text-xl">Status</h1>
       </div>
-      <ul className="sm:flex hidden gap-x-4 text-white font-medium">
+      <ul className="sm:flex hidden gap-x-4 text-primary font-medium">
         {navLinks.map((nav, index) => (
-          <li key={nav.id} className="">
+          <li
+            key={nav.id}
+            className="hover:text-yellow-400 transition-all duration-300"
+          >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}

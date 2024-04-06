@@ -5,22 +5,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#000000",
-        secondary: "#09101C",
-        bordercolor: "#E8E9EC",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
-      },
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        primary: "#512772",
+        secondary: "#3F7A8C",
+        dec: "#3D3D3D",
+        bordercolor: "#512772",
+        yellow: "#FFC65C",
       },
     },
     screens: {
       xs: "480px",
       ss: "620px",
       sm: "768px",
-      md: "1060px",
-      lg: "1200px",
+      md: "770px",
+      lg: "990px",
       xl: "1700px",
     },
   },

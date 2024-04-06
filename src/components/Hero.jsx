@@ -1,25 +1,23 @@
-import party from "../assets/party.svg";
-
+import React from "react";
+import animles from "../assets/Hero-.svg";
+import Buttons from "./button";
 const Hero = () => {
   return (
-    <div className="bg-hero">
-      <div className="hero-content sm:w-fit w-full px-7 ">
-        <div className="sm:flex-row flex-col flex gap-2 mb-2 border-hero w-fit m-auto">
-          <p className="bg-but px-[10px] py-[1px] rounded-xl text-white">New</p>
-          <p className="text-primary text-[18px] text-center ">
-            Token-Gated Community Management in Status 2.0
-          </p>
+    <div className="relative Hero-height dec">
+      <div className="absolute Hero-text w-full sm:w-[60%]">
+        <div className="sm:flex-row flex  flex-col-reverse items-center gap-3 justify-center ">
+          <img src={animles} alt="" />
+          <p className="text-dec">2500+ Happy Paws</p>
         </div>
-        <h1 className="sm:text-[4rem] sm:l-h1 l-h text-primary text-center font-semibold text-[3rem] leading-relaxed capitalize py-2">
-          Make the jump <br className="sm:block hidden " /> to web3
+        <h1 className="sm:text-[5.2rem] sm:leading-[4.2rem]   leading-[3rem] text-primary font-[700] text-[3rem]  my-3 hed">
+          THE BEST PET SPA FOR YOUR BEST{" "}
+          <span className="text-secondary">FRIEND</span>
         </h1>
-        <p className="text-primary text-[21px] text-center mb-3">
-          Use the open source, decentralised crypto communication super app.
+        <p className="dec text- px-7 text-[17px] mb-5">
+          Pampering Your Beloved Pets with Unmatched Love, Care, and Expertise,
+          Because Every Furry Friend Deserves the Royal Treatment!
         </p>
-        <div className="border-hero p-5 w-fit bg-blue-700 flex gap-2 m-auto cursor-pointer">
-          <img src={party} alt="" />
-          <p className="text-white">Sign up for early access</p>
-        </div>
+        <Buttons />
       </div>
     </div>
   );
