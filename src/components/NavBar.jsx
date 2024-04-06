@@ -16,7 +16,7 @@ const NavBar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className="hover:text-yellow-400 transition-all duration-300"
+            className="hover:text-yellow transition-all duration-300"
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
