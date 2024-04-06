@@ -41,7 +41,7 @@ a {
   color: unset;
 }
 .Hero-height {
-  height: calc(100vh - 43px);
+  height: calc(100vh - 46px);
 }
 .Hero-text {
   top: 50%;
