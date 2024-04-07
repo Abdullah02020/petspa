@@ -52,3 +52,10 @@ a {
   text-align: center;
   position: absolute;
 }
+
+.Cgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(369px, 1fr));
+  gap: 2rem;
+  row-gap: 11rem; /* This is equivalent to 'gap-5' in Tailwind */
+}
