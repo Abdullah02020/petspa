@@ -8,7 +8,7 @@ const NavBar = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <nav className="flex justify-between py-2 px-5 border-2 border-bordercolor border-t-0 rounded-bl-[25px] rounded-br-[25px]">
+    <nav className="flex justify-between py-3 px-10 border-[4px] border-bordercolor border-t-0 rounded-bl-[25px] rounded-br-[25px]">
       <div className="logo flex gap-x-3">
         <img src={Logo} alt="" />
       </div>
@@ -16,7 +16,7 @@ const NavBar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className="hover:text-yellow transition-all duration-300"
+            className="hover:text-yellow transition-all duration-300 font-bold text-[17px]"
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>

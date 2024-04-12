@@ -59,3 +59,20 @@ a {
   gap: 2rem;
   row-gap: 11rem; /* This is equivalent to 'gap-5' in Tailwind */
 }
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 5rem;
+}
+@media (max-width: 767px) {
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+}
