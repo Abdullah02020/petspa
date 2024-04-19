@@ -1,6 +1,9 @@
 import React from "react";
 import animles from "../assets/Hero-.svg";
 import Buttons from "./button";
+import Aos from "aos";
+import "aos/dist/aos.css";
+Aos.init({});
 const Hero = () => {
   return (
     <div className="relative Hero-height dec" id="Home">

@@ -17,6 +17,10 @@ import {
   blog3,
   blog4,
   blogicon,
+  jps,
+  phon,
+  hour,
+  emile,
 } from "../assets";
 export {
   why1,
@@ -34,6 +38,10 @@ export {
   blog3,
   blog4,
   blogicon,
+  jps,
+  phon,
+  hour,
+  emile,
 } from "../assets/index";
 export const navLinks = [
   {
@@ -218,5 +226,25 @@ export const blog = [
     header: `The Art of Pet Spa 
     Treatments`,
     blogicon: blogicon,
+  },
+];
+export const FooterUL = [
+  {
+    imgPaht: jps,
+    name: "Address: 123 Main Street, Cityville, Stateburg, 98765",
+  },
+  {
+    imgPaht: phon,
+    name: "Hotline: (555) 123-4567",
+  },
+  {
+    imgPaht: emile,
+    name: "Email: info@pawfect.com",
+  },
+  {
+    imgPaht: hour,
+    name: `Mon to Fri: 9.00am - 8.30pm 
+    Sat: 10.00am - 6.30pm
+    Sun: Closed`,
   },
 ];

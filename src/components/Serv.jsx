@@ -2,11 +2,18 @@ import { sericon, ser1, ser2, ser3, ser4, ser5, ser6 } from "../assets/index";
 const Serv = () => {
   return (
     <div className="section__padding">
-      <div className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4">
+      <div
+        className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4"
+        data-aos="fade-up"
+      >
         <img src={sericon} alt="" />
         <p className="t text-primary cursor-pointer">Our Services</p>
       </div>
-      <div className=" mb-6 text-secondary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]">
+      <div
+        className=" mb-6 text-secondary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         Bubblelicious{" "}
         <span className="tex text-primary">
           Spa <br /> Adventures
@@ -14,7 +21,11 @@ const Serv = () => {
       </div>
 
       <div className=" Cgrid py-7 pt-[11rem]">
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser1}
@@ -32,7 +43,11 @@ const Serv = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser2}
@@ -49,7 +64,11 @@ const Serv = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="550"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser3}
@@ -66,7 +85,11 @@ const Serv = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser4}
@@ -83,7 +106,11 @@ const Serv = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser5}
@@ -101,7 +128,11 @@ const Serv = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-[88%]">
+        <div
+          className="flex flex-col w-[88%]"
+          data-aos="fade-up"
+          data-aos-delay="550"
+        >
           <div className="bg-[#FFC65C] h-[5rem] w-full z-10 relative rounded-tr-[75px]">
             <img
               src={ser6}
@@ -120,7 +151,10 @@ const Serv = () => {
           </div>
         </div>
       </div>
-      <div className="border-4 mt-5 border-bordercolor w-fit border-r-0 border-l-0 border-t-0 mx-auto rounded-xl pb-4">
+      <div
+        className="border-4 mt-5 border-bordercolor w-fit border-r-0 border-l-0 border-t-0 mx-auto rounded-xl pb-4"
+        data-aos="flip-up"
+      >
         <a
           href="#"
           className="bg bg-yellow py-3 px-4 rounded-[10px] text-[#3D3D3D] font-semibold "

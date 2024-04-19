@@ -3,11 +3,18 @@ import { sericon, abouts } from "../assets/index";
 const About = () => {
   return (
     <div className="section__padding">
-      <div className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4">
+      <div
+        className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4"
+        data-aos="fade-up"
+      >
         <img src={sericon} alt="" />
         <p className="t text-primary cursor-pointer">Who We Are</p>
       </div>
-      <div className=" mb-6 text-secondary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]">
+      <div
+        className=" mb-6 text-secondary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         <span className=" text-primary">
           KNOW <br />
         </span>{" "}

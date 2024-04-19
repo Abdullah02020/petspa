@@ -9,20 +9,27 @@ const Rat = () => {
       {" "}
       <div className="pb-7">
         {" "}
-        <div className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4">
+        <div
+          className="flex gap-2 bg-[#E2D6CE] w-fit py-2 px-4 m-auto rounded-[25px] mb-4"
+          data-aos="fade-up"
+        >
           <img src={sericon} alt="" />
           <p className="t text-primary cursor-pointer">Testimonials</p>
         </div>
-        <div className=" mb-6 text-primary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]">
+        <div
+          className=" mb-6 text-primary hed text-center text-[3.4rem] leading-[45px] sm:text-[5rem] sm:leading-[55px]"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           Paw-some Praise <br />
           <span className="text text-secondary">
             Pet Parents Share the Love!
           </span>
         </div>
       </div>
-      <div className="grid4">
+      <div className="grid4 overflow-hidden">
         {rat.map((item, index) => (
-          <div className="">
+          <div className="" data-aos="fade-left" data-aos-delay="500">
             <div
               key={index}
               className="bg-[#3F7A8C] w-fit rounded-[20px] py-5 px-3"

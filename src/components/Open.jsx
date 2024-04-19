@@ -11,7 +11,10 @@ const Open = () => {
        m-auto"
       >
         {open.map((item) => (
-          <div className="card mb-5 text-center sm:text-left">
+          <div
+            className="card mb-5 text-center sm:text-left"
+            data-aos="fade-up"
+          >
             <img
               src={item.imgpath}
               alt=""

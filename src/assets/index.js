@@ -26,6 +26,13 @@ import blog2 from "../assets/Blog2.png";
 import blog3 from "../assets/Blog3.png";
 import blog4 from "../assets/Blog4.png";
 import blogicon from "../assets/blogicon.svg";
+import catfooter from "../assets/footercat.svg";
+import dogfooter from "../assets/footerdog.svg";
+import footerlogo from "../assets/footerlogo.svg";
+import jps from "../assets/jps.svg";
+import phon from "../assets/phon.svg";
+import hour from "../assets/houer.svg";
+import emile from "../assets/emile.svg";
 export {
   location,
   time,
@@ -55,4 +62,11 @@ export {
   blog3,
   blog4,
   blogicon,
+  dogfooter,
+  catfooter,
+  footerlogo,
+  jps,
+  phon,
+  hour,
+  emile,
 };
